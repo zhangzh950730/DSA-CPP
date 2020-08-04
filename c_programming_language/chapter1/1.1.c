@@ -4,5 +4,5 @@
 #include <stdio.h>
 
 main() {
-    printf("hello world C\n");
+    printf("hello world \C \n");
 }
