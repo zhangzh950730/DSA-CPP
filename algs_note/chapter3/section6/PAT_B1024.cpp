@@ -25,7 +25,7 @@ int main() {
     }
 
     if (str[pos + 1] == '-') {
-        printf("o.");
+        printf("0.");
         for (int i = 0; i < exp - 1; ++i) {
             printf("0");
         }
