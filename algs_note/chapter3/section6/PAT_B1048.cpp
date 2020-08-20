@@ -5,8 +5,8 @@
 #include <cstring>
 #include <cstdio>
 
-const int maxn = 101;
-char A[maxn], B[maxn], ans[maxn] = {0};
+const int MAX_N = 101;
+char A[MAX_N], B[MAX_N], ans[MAX_N] = {0};
 
 void reverse(char s[]) {
     int len = strlen(s);

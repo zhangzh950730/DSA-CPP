@@ -5,7 +5,7 @@
 #include <cstring>
 #include <cstdio>
 
-const int maxn = 256;
+const int MAX_N = 256;
 
 bool judge(char str[]) {
     int len = strlen(str);
@@ -16,7 +16,7 @@ bool judge(char str[]) {
 }
 
 int main() {
-    char str[maxn];
+    char str[MAX_N];
     while (gets(str)) {
         printf("%s\n", judge(str) ? "YES" : "NO");
     }

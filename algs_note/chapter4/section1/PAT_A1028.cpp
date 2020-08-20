@@ -7,12 +7,12 @@
 
 using namespace std;
 
-const int maxn = 100010;
+const int MAX_N = 100010;
 
 struct Student {
     int id, score;
     char name[10];
-} stu[maxn];
+} stu[MAX_N];
 
 bool cmp1(Student a, Student b) {
     return a.id < b.id;

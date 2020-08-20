@@ -7,14 +7,14 @@
 #include <algorithm>
 
 using namespace std;
-const int maxn = 1010;
+const int MAX_N = 1010;
 int toll[25]; //资费
 
 struct Record {
     char name[25];
     int month, dd, hh, mm;
     bool status; //true表示on-line,否在为off-line
-} rec[maxn], temp;
+} rec[MAX_N], temp;
 
 bool cmp(Record a, Record b) {
     int s = strcmp(a.name, b.name);

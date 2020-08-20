@@ -4,8 +4,8 @@
 
 #include <cstdio>
 
-const int maxn = 100010;
-int school[maxn] = {0};
+const int MAX_N = 100010;
+int school[MAX_N] = {0};
 
 int main() {
     int n, schId, score;

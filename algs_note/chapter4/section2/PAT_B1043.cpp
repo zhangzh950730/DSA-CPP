@@ -1,7 +1,7 @@
 // Êä³öPATest
 // Created by zhang on 2020/8/18.
 //
-const int maxn = 10001;
+const int MAX_N = 10001;
 
 #include <iostream>
 #include <cstring>
@@ -12,8 +12,8 @@ char test[6] = {'P', 'A', 'T', 'e', 's', 't'};
 int count[6] = {0}, sum = 0;
 
 int main() {
-    char str[maxn];
-    cin.getline(str, maxn);
+    char str[MAX_N];
+    cin.getline(str, MAX_N);
     int len = strlen(str);
     for (int i = 0; i < len; ++i) {
         char c = str[i];

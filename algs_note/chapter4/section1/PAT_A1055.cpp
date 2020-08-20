@@ -7,13 +7,13 @@
 #include <algorithm>
 
 using namespace std;
-const int maxn = 100010;
-int Age[maxn] = {0};
+const int MAX_N = 100010;
+int Age[MAX_N] = {0};
 
 struct Person {
     int age, worths; //年龄,财富值
     char name[10];
-} ps[maxn], valid[maxn];
+} ps[MAX_N], valid[MAX_N];
 
 bool cmp(Person a, Person b) {
     if (a.worths != b.worths) return a.worths > b.worths;

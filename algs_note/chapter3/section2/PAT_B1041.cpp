@@ -4,11 +4,11 @@
 
 #include <cstdio>
 
-const int maxn = 1000;
+const int MAX_N = 1000;
 struct Student {
     long long id;
     int examSeat; //¿¼ÊÔ×ùÎ»ºÅ
-} testSeat[maxn];
+} testSeat[MAX_N];
 
 int main() {
     int n, m, seat, examSeat;

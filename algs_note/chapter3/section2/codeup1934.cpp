@@ -4,8 +4,8 @@
 
 #include <cstdio>
 
-const int maxn = 200;
-int a[maxn];
+const int MAX_N = 200;
+int a[MAX_N];
 
 int main() {
     int n, x;

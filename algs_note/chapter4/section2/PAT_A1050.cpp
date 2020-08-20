@@ -5,13 +5,13 @@
 #include <cstring>
 
 using namespace std;
-const int maxn = 10001;
+const int MAX_N = 10001;
 
 int main() {
     bool hashTable[128] = {false};
-    char str1[maxn], str2[maxn];
-    cin.getline(str1, maxn);
-    cin.getline(str2, maxn);
+    char str1[MAX_N], str2[MAX_N];
+    cin.getline(str1, MAX_N);
+    cin.getline(str2, MAX_N);
     int len1 = strlen(str1);
     int len2 = strlen(str2);
     for (int i = 0; i < len2; ++i) {

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-const int maxn = 10001;
+const int MAX_N = 10001;
 int hashTable[80] = {0}, miss = 0;
 
 int change(char c) {
@@ -19,9 +19,9 @@ int change(char c) {
 }
 
 int main() {
-    char whole[maxn], target[maxn];
-    cin.getline(whole, maxn);
-    cin.getline(target, maxn);
+    char whole[MAX_N], target[MAX_N];
+    cin.getline(whole, MAX_N);
+    cin.getline(target, MAX_N);
     int len1 = strlen(whole);
     int len2 = strlen(target);
     for (int i = 0; i < len1; ++i) {

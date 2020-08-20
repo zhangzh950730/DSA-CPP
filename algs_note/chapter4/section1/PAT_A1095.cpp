@@ -8,14 +8,14 @@
 #include <algorithm>
 
 using namespace std;
-const int maxn = 10010;
+const int MAX_N = 10010;
 
 
 struct Car {
     char id[8]; //车牌号
     int time; //记录的时刻,秒为单位
     char status[4]; //in或者out
-} all[maxn], valid[maxn];
+} all[MAX_N], valid[MAX_N];
 
 int num = 0;//有效记录的条数
 map<string, int> parkTime; //车牌号->总停留时间

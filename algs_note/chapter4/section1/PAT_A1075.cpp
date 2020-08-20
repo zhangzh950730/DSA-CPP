@@ -6,7 +6,7 @@
 #include <algorithm>
 
 using namespace std;
-const int maxn = 100010;
+const int MAX_N = 100010;
 
 struct Student {
     int id; //准考证号
@@ -14,7 +14,7 @@ struct Student {
     bool flag; //是否有能通过编译的提交
     int score_all; //总分
     int solve; //完美解题数
-} stu[maxn];
+} stu[MAX_N];
 
 bool cmp(Student a, Student b) {
     if (a.flag != b.flag) return a.flag > b.flag;

@@ -6,13 +6,13 @@
 
 using namespace std;
 
-const int maxn = 100000;
+const int MAX_N = 100000;
 bool hashTable[256];
-char str[maxn];
+char str[MAX_N];
 
 int main() {
     memset(hashTable, true, sizeof(hashTable));
-    cin.getline(str, maxn);
+    cin.getline(str, MAX_N);
     int len = strlen(str);
     for (int i = 0; i < len; ++i) {
         if (str[i] >= 'A' && str[i] <= 'Z') {
@@ -21,7 +21,7 @@ int main() {
         hashTable[str[i]] = false;
     }
 
-    cin.getline(str, maxn);
+    cin.getline(str, MAX_N);
     len = strlen(str);
     for (int i = 0; i < len; ++i) {
         if (str[i] >= 'A' && str[i] <= 'Z') {
