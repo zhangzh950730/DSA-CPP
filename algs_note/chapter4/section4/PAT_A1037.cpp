@@ -5,8 +5,8 @@
 #include <algorithm>
 
 using namespace std;
-const int maxn = 100010;
-int coupon[maxn], product[maxn];
+const int MAXN = 100010;
+int coupon[MAXN], product[MAXN];
 
 int main() {
     int n, m;

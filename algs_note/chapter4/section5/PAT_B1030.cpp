@@ -6,8 +6,8 @@
 
 using namespace std;
 
-const int maxn = 100010;
-int n, p, a[maxn];
+const int MAXN = 100010;
+int n, p, a[MAXN];
 
 int binarySearch(int i, long long x) {
     if (a[n - 1] <= x) return n;

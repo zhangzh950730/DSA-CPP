@@ -5,8 +5,8 @@
 #include <algorithm>
 
 using namespace std;
-const int maxn = 100001;
-int pos[maxn];
+const int MAXN = 100001;
+int pos[MAXN];
 
 int main() {
     int n, ans = 0;

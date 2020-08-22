@@ -5,8 +5,8 @@
 #include <algorithm>
 
 using namespace std;
-const int maxn = 100001;
-string str[maxn];
+const int MAXN = 100001;
+string str[MAXN];
 
 bool cmp(string a, string b) {
     return a + b < b + a;
