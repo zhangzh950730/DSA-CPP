@@ -1,10 +1,9 @@
-//
+// 插入排序
 // Created by zhang on 2021/7/14.
 //
 
-typedef int ElemType;
-
 #include <iostream>
+#include "../../chapter2/section2/SeqList.h"
 
 using namespace std;
 
