@@ -2,7 +2,7 @@
 // Created by zhang on 2021/7/17.
 //
 
-#include "../../chapter2/section2/SeqList.h"
+#include "../../chapter2/section2/ArrayList.h"
 #include "../section3/8.3.h"
 
 void selectSort(ElemType A[], int n) {

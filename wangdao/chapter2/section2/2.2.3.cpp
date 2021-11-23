@@ -1,9 +1,9 @@
 //
 // Created by zhang on 2020/12/21.
 //
-#include "SeqList.h"
+#include "ArrayList.h"
 
-void deleteX(SeqList &L, ElemType x) {
+void deleteX(ArrayList &L, ElemType x) {
     int k = 0;
     for (int i = 0; i < L.length; ++i) {
         if (L.data[i] != x) {
@@ -12,4 +12,11 @@ void deleteX(SeqList &L, ElemType x) {
         }
     }
     L.length = k;
+}
+
+int main() {
+    int data[] = {1, 1, 2, 3, 1, 2, 3, 1};
+    struct ArrayList L = {data, 8};
+    deleteX(L, 1);
+
 }

@@ -53,7 +53,7 @@ int main() {
 
 //    int a = 1;
 //    int b = 2;
-//    swap(&a, &b);
+//    exchange1(&a, &b);
 //    printf("a = %d, b = %d", a, b);
 
 

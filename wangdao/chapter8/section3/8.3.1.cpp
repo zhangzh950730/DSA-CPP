@@ -2,7 +2,7 @@
 // Created by zhang on 2021/7/17.
 //
 
-#include "../../chapter2/section2/SeqList.h"
+#include "../../chapter2/section2/ArrayList.h"
 #include "8.3.h"
 
 void bubbleSort(ElemType A[], int n) {

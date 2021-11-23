@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "../../chapter2/section2/SeqList.h"
+#include "../../chapter2/section2/ArrayList.h"
 
 using namespace std;
 

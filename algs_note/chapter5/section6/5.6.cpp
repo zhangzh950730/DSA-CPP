@@ -2,7 +2,7 @@
 // Created by zhang on 2020/8/23.
 //
 #include <cstdio>
-#include "5.6.h"
+#include "5.6c.h"
 
 int main() {
     char str1[1000], str2[1000];
