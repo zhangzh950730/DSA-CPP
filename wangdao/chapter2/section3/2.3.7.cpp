@@ -1,7 +1,7 @@
 //
 // Created by 张之豪 on 2021/11/24.
 //
-#include "LinkedList.h"
+#include "../../LinkedList.h"
 
 void solution(LinkedList &L, ElemType min, ElemType max) {
     LNode *pre = L, *p = pre->next;

@@ -1,7 +1,7 @@
 //
 // Created by 张之豪 on 2021/11/24.
 //
-#include "LinkedList.h"
+#include "../../LinkedList.h"
 
 LinkedList solution(LinkedList L1, LinkedList L2) {
     int len1 = length(L1);

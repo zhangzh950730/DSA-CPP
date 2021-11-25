@@ -2,7 +2,7 @@
 // Created by 张之豪 on 2021/11/24.
 //
 
-#include "LinkedList.h"
+#include "../../LinkedList.h"
 
 void delX(LinkedList &L, ElemType x) {
     if (L == NULL) return;

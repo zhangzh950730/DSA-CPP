@@ -1,7 +1,7 @@
 //
 // Created by 张之豪 on 2021/11/24.
 //
-#include "LinkedList.h"
+#include "../../LinkedList.h"
 
 bool solution(LinkedList A, LinkedList B) {
     LNode *p = A->next, *q = B->next, *pre = p;

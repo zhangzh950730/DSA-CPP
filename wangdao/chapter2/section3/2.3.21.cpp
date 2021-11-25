@@ -1,7 +1,7 @@
 //
 // Created by 张之豪 on 2021/11/24.
 //
-#include "LinkedList.h"
+#include "../../LinkedList.h"
 
 /**
  * 设计思想

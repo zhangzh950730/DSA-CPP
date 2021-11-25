@@ -4,7 +4,7 @@
 
 #include <cstdlib>
 #include <cstdio>
-#include "../../Common.h"
+#include "Common.h"
 
 typedef struct LNode {
     ElemType data;

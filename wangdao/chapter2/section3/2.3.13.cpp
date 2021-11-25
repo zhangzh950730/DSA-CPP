@@ -1,7 +1,7 @@
 //
 // Created by 张之豪 on 2021/11/24.
 //
-#include "LinkedList.h"
+#include "../../LinkedList.h"
 
 void solution(LinkedList &La, LinkedList &Lb) {
     LNode *pa = La->next, *pb = Lb->next, *r;

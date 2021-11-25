@@ -2,7 +2,7 @@
 // Created by 张之豪 on 2021/11/25.
 //
 
-#include "LinkedList.h"
+#include "../../LinkedList.h"
 
 LNode *solution(LNode *head) {
     LNode *fast = head, *slow = head;
