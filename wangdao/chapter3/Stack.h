@@ -1,7 +1,7 @@
 //
 // Created by 张之豪 on 2021/11/25.
 //
-#include "../../Common.h"
+#include "../Common.h"
 
 #define MaxSize 50
 

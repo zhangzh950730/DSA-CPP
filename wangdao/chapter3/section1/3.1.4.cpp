@@ -3,7 +3,7 @@
 //
 
 #include "../../LinkedList.h"
-#include "Stack.h"
+#include "../Stack.h"
 
 bool solution(LinkedList L, int n) {
     int i;
