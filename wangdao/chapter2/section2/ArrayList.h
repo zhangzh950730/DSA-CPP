@@ -2,7 +2,7 @@
 // Created by zhang on 2020/12/21.
 //
 
-typedef int ElemType;
+#include "../../Common.h"
 
 struct ArrayList {
     ElemType *data;
