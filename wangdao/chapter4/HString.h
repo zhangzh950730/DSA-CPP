@@ -4,13 +4,6 @@
 #include <cstdlib>
 #include <cstdio>
 
-#define MAX_LEN  255
-
-typedef struct {
-    char ch[MAX_LEN];
-    int length;
-} SString;
-
 typedef struct {
     char *ch;
     int length;
