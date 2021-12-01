@@ -3,7 +3,7 @@
 //
 
 #include <cstdio>
-#include "../Stack.h"
+#include "../../Stack.h"
 #include "../SqQueue.h"
 
 bool StackOverFlow(Stack S) {
