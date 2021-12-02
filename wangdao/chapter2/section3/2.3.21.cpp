@@ -12,7 +12,7 @@
  * 实现步骤
  * 1.count = 0,p,q 指向链表的第一个节点
  * 2.循环p不为空
- *  2.1 if count<k count++ else q指向下一个节点
+ *  2.1 if count<data count++ else q指向下一个节点
  *  2.2 p指向下一个节点
  * 3.如果count值等于k值,则查找成功,打印q的数据域,返回1; 否则就是查找失败,返回0
  */
