@@ -1,7 +1,7 @@
 //
 // Created by 张之豪 on 2021/12/6.
 //
-#include "Graph.h"
+#include "../Graph.h"
 
 void DFS(Graph &G, int v, int &Vnum, int &Enum, int visited[]) {
     visited[v] = true, Vnum++;

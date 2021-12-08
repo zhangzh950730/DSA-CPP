@@ -1,7 +1,7 @@
 //
 // Created by 张之豪 on 2021/12/6.
 //
-#include "Graph.h"
+#include "../Graph.h"
 #include "queue"
 
 using namespace std;
