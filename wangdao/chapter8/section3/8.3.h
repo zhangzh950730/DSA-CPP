@@ -11,10 +11,10 @@
 
 using namespace std;
 
-void swap(ElemType *A, int i, int j) {
-    ElemType temp = A[i];
-    A[i] = A[j];
-    A[j] = temp;
+void swap(int &i, int &j) {
+    int temp = i;
+    i = j;
+    j = temp;
 }
 
 void print(ElemType A[], int n) {

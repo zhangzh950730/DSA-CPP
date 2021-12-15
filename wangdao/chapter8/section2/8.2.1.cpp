@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "../../chapter2/section2/ArrayList.h"
+#include "../../Common.h"
 
 using namespace std;
 

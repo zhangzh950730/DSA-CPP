@@ -1,37 +1,35 @@
 //
-// Created by zhang on 2021/7/17.
+// Created by 张之豪 on 2021/12/13.
 //
-
-#include "../../chapter2/section2/ArrayList.h"
+#include "../../Common.h"
 #include "8.3.h"
 
-int partition(ElemType *A, int low, int high) {
-    ElemType pivot = A[low];
-    while (low < high) {
-        while (low < high && A[high] >= pivot) {
-            high--;
-        }
-        A[low] = A[high];
-        while (low < high && A[low] <= pivot) {
-            low++;
-        }
-        A[high] = A[low];
-    }
-    A[low] = pivot;
-    return low;
-}
 
-void quickSort(ElemType A[], int low, int high) {
-    if (low < high) {
-        int pivotPosition = partition(A, low, high);
-        quickSort(A, low, pivotPosition - 1);
-        quickSort(A, pivotPosition + 1, high);
+void bubbleSort(ElemType A[], int n) {
+    int lo = 0, hi = n - 1;
+    bool flag = true;
+    while (lo < hi && flag) {
+        flag = false;
+        for (int i = lo; i < hi; ++i) {
+            if (A[i] > A[i + 1]) {
+                swap(A[i], A[i + 1]);
+                flag = true;
+            }
+        }
+        hi--;
+        for (int i = hi; i > lo; --i) {
+            if (A[i] < A[i - 1]) {
+                swap(A[i], A[i - 1]);
+                flag = true;
+            }
+        }
+        lo++;
     }
 }
 
 int main() {
     ElemType A[] = {49, 27, 13, 76, 97, 65, 38, 49};
     print(A, 8);
-    quickSort(A, 0, 7);
+    bubbleSort(A, 9);
     print(A, 8);
 }
